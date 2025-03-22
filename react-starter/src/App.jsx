@@ -48,7 +48,7 @@ const handleSubmit = (event) =>{
 {/* <Component/> */}
 
 
-<div style={{display: "flex", justifyContent: "center", alignItems: "center", height: "100vh"}}>
+{/* <div style={{display: "flex", justifyContent: "center", alignItems: "center", height: "100vh"}}>
 
 <form onSubmit={handleSubmit} style={{display: "flex", flexDirection: "column", width: "300px", gap: "10px"}}>
 <input type="text" value={username} onChange={(event)=>setUsername(event.target.value)} placeholder="username" />
@@ -56,7 +56,10 @@ const handleSubmit = (event) =>{
 <input type="text" value={department}  onChange={(event)=>setDapartment(event.target.value)} placeholder="department" />
 <button type="submit">Login</button>
 </form>
-</div>
+</div> */}
+
+
+<Dashboard/>
 </>
   )
 }
